@@ -1,0 +1,56 @@
+agent_specs:
+  batch_stage: false
+clip_epsilon: 0.2
+data_source: twitter
+entropy_coef: 0.01
+eps: 1.0e-05
+gamma: 0.99
+lr: 0.0004
+max_num_iterations: 100
+max_sequence_length: 100
+mini_batch_size: 128
+num_episodes_per_iteration: 200
+num_optim_epoch: 4
+policy_specs:
+  policy_land_use_head_hidden_size:
+  - 32
+  - 1
+  policy_road_head_hidden_size:
+  - 32
+  - 1
+save_model_interval: 5
+spread:
+  beta: 0.08
+  edge_direction: true
+  fix_seed: true
+  gamma: 0.2
+  max_node_cut_ration: 0.4
+  model: SIR
+  network_id: null
+  network_size: w
+  reward:
+    a1: 0
+    a2: 1
+  simulation_count: 5
+  source: null
+  spread_steps: 8
+  total_cut_ration: 0.1
+state_encoder_specs:
+  gcn_edge_dim: 2
+  gcn_node_dim: 8
+  max_num_edges: 3000
+  max_num_nodes: 2000
+  num_attention_heads: 2
+  num_edge_fc_layers: 2
+  num_gcn_layers: 2
+  state_encoder_hidden_size:
+  - 16
+  - 8
+tau: 0.0
+value_pred_coef: 0.5
+value_specs:
+  value_head_hidden_size:
+  - 32
+  - 32
+  - 1
+weightdecay: 0.0
