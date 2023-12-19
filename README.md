@@ -2,7 +2,7 @@
 
 ### Overall Framework
 
-![image-20231219145858355](C:\Users\randommm\AppData\Roaming\Typora\typora-user-images\image-20231219145858355.png)
+![transfer](.\img\frame.png)
 
 # Installation 
 
@@ -31,28 +31,28 @@ The results are saved in path `result/platform/method/cfg/seed`
 
 ### Algorithm Framework 
 
-![image-20231219151336377](C:\Users\randommm\AppData\Roaming\Typora\typora-user-images\image-20231219151336377.png)
+![transfer](.\img\alg.png)
 
 ### Result
 
-![image-20231219151803656](C:\Users\randommm\AppData\Roaming\Typora\typora-user-images\image-20231219151803656.png)
+![transfer](.\img\table.png)
 
 
 
-![image-20231219150103216](C:\Users\randommm\AppData\Roaming\Typora\typora-user-images\image-20231219150103216.png)
+![transfer](.\img\lines.png)
 
 - We compared DRLE to other baselines at different social media platforms, with the metrics being the Total Infectious Rate.
 - Extensive experiments demonstrate that DRLE yields impressive effects on the mitigation of rumors, exhibiting an improvement of **over 20%** compared to baseline methods.
 
 ### Transferability 
 
-![image-20231219152907333](C:\Users\randommm\AppData\Roaming\Typora\typora-user-images\image-20231219152907333.png)
+![transfer](.\img\transfer.png)
 
 - The model trained on small social media platforms can be directly applied to larger networks with only a marginal decrease in metrics. Importantly, this performance remains superior to the optimal baselines.
 
 ### For Vulnerable Populations
 
-![image-20231219153348348](C:\Users\randommm\AppData\Roaming\Typora\typora-user-images\image-20231219153348348.png)
+![transfer](.\img\4good.png)
 
 - DRLE can also offer effective protection for specific populations within social media platforms.
 
