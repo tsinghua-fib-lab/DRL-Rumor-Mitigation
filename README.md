@@ -2,7 +2,7 @@
 
 ### Overall Framework
 
-![transfer](.\img\frame.png)
+![transfer](img/frame.png)
 
 # Installation 
 
