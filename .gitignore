@@ -1,0 +1,8 @@
+# ignore result and data
+*.pyc
+*.zip
+
+result*
+
+
+#test
